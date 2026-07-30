@@ -28,7 +28,7 @@ jobs:
           gradle-version: 8.4
 
       - name: Build debug APK
-        working-directory: Tutorialapp
+        working-directory: TicTacToe.zip
         run: gradle assembleDebug --stacktrace
 
       - name: Upload APK artifact
