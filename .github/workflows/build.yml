@@ -28,7 +28,7 @@ jobs:
           gradle-version: 8.4
 
       - name: Build debug APK
-        working-directory: TicTacToe
+        working-directory: TresEnRaya
         run: gradle assembleDebug --stacktrace
 
       - name: Upload APK artifact
